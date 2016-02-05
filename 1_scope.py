@@ -2,6 +2,8 @@
 #
 # What do you think you will see if you run this program?
 
+# If x is not definied in the function, it won't be able to call anything and will have an error
+
 x = 1
 
 def display():
@@ -13,8 +15,10 @@ def modify(z):
 
 print(x)
 
-display()
-print(x)
+# display()
+# print(x)
 
 modify(x)
 print(x)
+
+
