@@ -7,6 +7,7 @@ class ElectedOfficial:
   # need to have something here, so include pass if nothing else
   # pass
 
+  # this is a class level attribute
   parties = ["D", "R", "I"]
 
   def get_all_from_state(state):
