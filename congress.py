@@ -38,6 +38,7 @@ class ElectedOfficial:
 
   def print_summary(self):
     print(self.name)
+    print(self.party)
 
   def get_all():
     with open("congress.json", encoding='utf-8') as f:
